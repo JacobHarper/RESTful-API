@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+This is your main/home file.
+
+Please create a form with the following fields:
+
+1. First Name
+2. Last Name
+3. E-mail Address
+4. Home Phone
+5. Mobile Phone
+6. Street Address
+7. City
+8. State
+9. Zip Code
+
+The method of the form should be a POST and the action of the form should be process.php
+-->
+
+<!--
+Jacob Harper
+Midterm Project
+
+Index.html
+
+This file aims to create a form that can post to the other files-->
+
+<html>
+    <head>
+        <title>Jake's Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+
+        <!--Initiate the form, link the process.php file using 'action',
+         and send the forms data using the post method-->
+
+        <form action="process.php" method="post" >
+
+        <!--The goal here is to create a functional form that asks for names,
+        full addresses, and phone numbers, and then submit the answers-->
+
+        Please Fill Out The Following Form:<br><br>
+
+        <!--Create text input boxes for each required field-->
+        First Name: <input type="text" name="fname"><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        E-Mail Address: <input type="text" name="email"><br><br>
+        Home Phone: <input type="text" name="hphone"><br><br>
+        Mobile Phone: <input type="text" name="mphone"><br><br>
+        Street Address: <input type="text" name="street"><br><br>
+        City: <input type="text" name="city"><br><br>
+        State: <input type="text" name="state"><br><br>
+        Zip Code: <input type="text" name="zipcode"><br><br>
+
+        <!--Create a submit button -->
+        <input type="submit" value="Submit"><br><br>
+
+        <form>
+        </div>
+    </body>
+</html>
